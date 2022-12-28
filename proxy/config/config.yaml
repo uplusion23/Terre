@@ -1,0 +1,20 @@
+proxy:
+  name: Terre
+  host: 0.0.0.0
+  port: 7777
+  password: ''
+  maxPlayers: -1
+  servers:
+  - name: lobby
+    address: 127.0.0.1:7778
+    password: ''
+    allowAutoJoin: true
+    protocol: ''
+  - name: survival
+    address: 127.0.0.1:7779
+    password: ''
+    allowAutoJoin: false
+    protocol: ''
+  disabledPlugins: []
+  localBroadcast:
+    enabled: true
